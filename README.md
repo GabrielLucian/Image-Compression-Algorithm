@@ -1,8 +1,11 @@
+# Descriere Generala
 
 Programul porneste prin a verifica ce argument a fost dat pentru comanda (compress -c, decompress -d sau mirror -m), dupa care se executa functiile specifice:
 -pentru comanda de compress se deschid fisierele, se apeleaza functia compress, dupa care se scrie in fisierul de iesire numarul de noduri total, numarul de frunze si vectorul efectiv comprimat.
 -pentru comanda de decompress se deschid fisierele si se citesc numarul de frunze si noduri, dupa care se citeste vectorul comprimat si se apeleaza functia decompress.
 -pentru comanda mirror se deschid fisierele, se apeleaza functia compress, dupa care functia mirror, iar in final se decompreseaza inapoi imaginea.
+
+## Descriere functii
 
 Functia medie calculeaza media pixelilor dintr-o imagine data si returneaza un nod cu valorile respective.
 
